@@ -2,18 +2,26 @@ body {
     background:#FCFFFE;
     font-family:Arial, Helvetica, sans-serif;
 }
-.assignment{
+.assignments {
     display:flex;
+    flex-wrap:wrap;
+}
+.assignment{
+    width:22%;
     padding:10px;
     margin:10px;
     background:#98CCB6;
     border-radius:5px;
+    padding: 20px 10;
 }
 .assignment img{
     height:200px;
     width:200px;
     border:4px solid #FFF;
     margin:10px;
+    display:block;
+    margin:auto;
+
 }
 .assignment img:hover{
     order:4px dashed #F25C69;
@@ -25,6 +33,9 @@ h1 {
 h1 hover {
     color: #F25C69;
 
+}
+h2 {
+    text-align:center;
 }
 a{
     text-decoration: none;
